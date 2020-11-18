@@ -2,9 +2,9 @@
   "name": "digitaldonkey/ethereum-php",
   "description": "A library integrating Ethereum with typed PHP.",
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.2",
     "ext-json": "*",
-    "graze/guzzle-jsonrpc": "~3.0",
+    "graze/guzzle-jsonrpc": "dev-master",
     "pear/math_biginteger": "^1.0",
     "kornrunner/keccak": "^1.0",
     "digitaldonkey/ecverify":"1.0"
@@ -31,6 +31,12 @@
     {
       "name": "Thorsten Krug",
       "email": "thorsten.krug@consensys.net"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Igor360/guzzle-jsonrpc.git"
     }
   ]
 }
